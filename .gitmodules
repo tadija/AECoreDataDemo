@@ -1,7 +1,0 @@
-[submodule "AERecord"]
-	path = AERecord
-	url = https://github.com/tadija/AERecord.git
-	branch = develop
-[submodule "AECoreDataUI"]
-	path = AECoreDataUI
-	url = https://github.com/tadija/AECoreDataUI.git

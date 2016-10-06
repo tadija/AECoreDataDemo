@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B250AC81DA6CFDB007FA098 /* AERecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B250AAE1DA6CF08007FA098 /* AERecord.framework */; };
-		8B250AC91DA6CFDB007FA098 /* AERecord.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B250AAE1DA6CF08007FA098 /* AERecord.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B14A4131DA6DF5900E95479 /* AERecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B14A4121DA6DF5800E95479 /* AERecord.framework */; };
+		8B62B4041DA6DFC7006FAB83 /* AECoreDataUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B62B4031DA6DFC7006FAB83 /* AECoreDataUI.framework */; };
 		8BFD971A1CF08CAD008E8C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD97191CF08CAD008E8C9E /* AppDelegate.swift */; };
 		8BFD971F1CF08CAD008E8C9E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD971E1CF08CAD008E8C9E /* MasterViewController.swift */; };
 		8BFD97211CF08CAD008E8C9E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD97201CF08CAD008E8C9E /* DetailViewController.swift */; };
@@ -17,90 +17,8 @@
 		8BFD97291CF08CAD008E8C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD97271CF08CAD008E8C9E /* LaunchScreen.storyboard */; };
 		8BFD97341CF08D9E008E8C9E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD97331CF08D9E008E8C9E /* Event.swift */; };
 		8BFD976B1CF08E74008E8C9E /* AECoreDataDemo.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD976A1CF08E74008E8C9E /* AECoreDataDemo.xcdatamodel */; };
-		8BFD97971CF09065008E8C9E /* AECoreDataUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFD97901CF09034008E8C9E /* AECoreDataUI.framework */; };
-		8BFD97981CF09065008E8C9E /* AECoreDataUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFD97901CF09034008E8C9E /* AECoreDataUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8BFD979C1CF090CE008E8C9E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD979B1CF090CE008E8C9E /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8B250AAD1DA6CF08007FA098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFD96B01CF0709B008E8C9E;
-			remoteInfo = "AERecord iOS";
-		};
-		8B250AAF1DA6CF08007FA098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFD96BA1CF0709C008E8C9E;
-			remoteInfo = "AERecord iOS Tests";
-		};
-		8B250AB11DA6CF08007FA098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFD97D41CF0E8C2008E8C9E;
-			remoteInfo = "AERecord watchOS";
-		};
-		8B250AB31DA6CF08007FA098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFD97B61CF0E79E008E8C9E;
-			remoteInfo = "AERecord tvOS";
-		};
-		8B250AB51DA6CF08007FA098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFD97E21CF0E976008E8C9E;
-			remoteInfo = "AERecord tvOS Tests";
-		};
-		8B250AB71DA6CF08007FA098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFD97C51CF0E883008E8C9E;
-			remoteInfo = "AERecord OSX";
-		};
-		8B250AB91DA6CF08007FA098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFD97F61CF0EA36008E8C9E;
-			remoteInfo = "AERecord OSX Tests";
-		};
-		8B250ACA1DA6CFDB007FA098 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8BFD96AF1CF0709B008E8C9E;
-			remoteInfo = "AERecord iOS";
-		};
-		8BFD978F1CF09034008E8C9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD978A1CF09034008E8C9E /* AECoreDataUI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFD96E21CF073F8008E8C9E;
-			remoteInfo = AECoreDataUI;
-		};
-		8BFD97911CF09034008E8C9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD978A1CF09034008E8C9E /* AECoreDataUI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8BFD96EC1CF073F8008E8C9E;
-			remoteInfo = AECoreDataUITests;
-		};
-		8BFD97991CF09065008E8C9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8BFD978A1CF09034008E8C9E /* AECoreDataUI.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8BFD96E11CF073F8008E8C9E;
-			remoteInfo = AECoreDataUI;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8BFD97461CF08E00008E8C9E /* Embed Frameworks */ = {
@@ -109,8 +27,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8BFD97981CF09065008E8C9E /* AECoreDataUI.framework in Embed Frameworks */,
-				8B250AC91DA6CFDB007FA098 /* AERecord.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +36,9 @@
 /* Begin PBXFileReference section */
 		8B14A4021DA6DAB000E95479 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8B14A4031DA6DAB000E95479 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8B14A40E1DA6DE2300E95479 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		8B14A4121DA6DF5800E95479 /* AERecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AERecord.framework; path = Carthage/Build/iOS/AERecord.framework; sourceTree = "<group>"; };
+		8B62B4031DA6DFC7006FAB83 /* AECoreDataUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AECoreDataUI.framework; path = Carthage/Build/iOS/AECoreDataUI.framework; sourceTree = "<group>"; };
 		8BFD97161CF08CAD008E8C9E /* AECoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AECoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFD97191CF08CAD008E8C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BFD971E1CF08CAD008E8C9E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -130,8 +49,6 @@
 		8BFD972A1CF08CAD008E8C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BFD97331CF08D9E008E8C9E /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		8BFD976A1CF08E74008E8C9E /* AECoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AECoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
-		8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AERecord.xcodeproj; path = AERecord/AERecord.xcodeproj; sourceTree = "<group>"; };
-		8BFD978A1CF09034008E8C9E /* AECoreDataUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AECoreDataUI.xcodeproj; path = AECoreDataUI/AECoreDataUI.xcodeproj; sourceTree = "<group>"; };
 		8BFD979B1CF090CE008E8C9E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,8 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFD97971CF09065008E8C9E /* AECoreDataUI.framework in Frameworks */,
-				8B250AC81DA6CFDB007FA098 /* AERecord.framework in Frameworks */,
+				8B62B4041DA6DFC7006FAB83 /* AECoreDataUI.framework in Frameworks */,
+				8B14A4131DA6DF5900E95479 /* AERecord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,22 +70,18 @@
 			children = (
 				8B14A4021DA6DAB000E95479 /* LICENSE */,
 				8B14A4031DA6DAB000E95479 /* README.md */,
+				8B14A40E1DA6DE2300E95479 /* Cartfile */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8B250AA41DA6CF08007FA098 /* Products */ = {
+		8B14A40F1DA6DF4C00E95479 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B250AAE1DA6CF08007FA098 /* AERecord.framework */,
-				8B250AB01DA6CF08007FA098 /* AERecord iOS Tests.xctest */,
-				8B250AB21DA6CF08007FA098 /* AERecord.framework */,
-				8B250AB41DA6CF08007FA098 /* AERecord.framework */,
-				8B250AB61DA6CF08007FA098 /* AERecord tvOS Tests.xctest */,
-				8B250AB81DA6CF08007FA098 /* AERecord.framework */,
-				8B250ABA1DA6CF08007FA098 /* AERecord OSX Tests.xctest */,
+				8B62B4031DA6DFC7006FAB83 /* AECoreDataUI.framework */,
+				8B14A4121DA6DF5800E95479 /* AERecord.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8BFD970D1CF08CAD008E8C9E = {
@@ -176,9 +89,8 @@
 			children = (
 				8BFD97181CF08CAD008E8C9E /* AECoreDataDemo */,
 				8BFD97171CF08CAD008E8C9E /* Products */,
+				8B14A40F1DA6DF4C00E95479 /* Frameworks */,
 				8B14A40B1DA6DAB400E95479 /* Supporting Files */,
-				8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */,
-				8BFD978A1CF09034008E8C9E /* AECoreDataUI.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,15 +135,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		8BFD978B1CF09034008E8C9E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8BFD97901CF09034008E8C9E /* AECoreDataUI.framework */,
-				8BFD97921CF09034008E8C9E /* AECoreDataUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,12 +146,11 @@
 				8BFD97131CF08CAD008E8C9E /* Frameworks */,
 				8BFD97141CF08CAD008E8C9E /* Resources */,
 				8BFD97461CF08E00008E8C9E /* Embed Frameworks */,
+				8B62B4051DA6DFE0006FAB83 /* Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8BFD979A1CF09065008E8C9E /* PBXTargetDependency */,
-				8B250ACB1DA6CFDB007FA098 /* PBXTargetDependency */,
 			);
 			name = AECoreDataDemo;
 			productName = AECoreDataDemo;
@@ -282,88 +184,12 @@
 			mainGroup = 8BFD970D1CF08CAD008E8C9E;
 			productRefGroup = 8BFD97171CF08CAD008E8C9E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8BFD978B1CF09034008E8C9E /* Products */;
-					ProjectRef = 8BFD978A1CF09034008E8C9E /* AECoreDataUI.xcodeproj */;
-				},
-				{
-					ProductGroup = 8B250AA41DA6CF08007FA098 /* Products */;
-					ProjectRef = 8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8BFD97151CF08CAD008E8C9E /* AECoreDataDemo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		8B250AAE1DA6CF08007FA098 /* AERecord.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AERecord.framework;
-			remoteRef = 8B250AAD1DA6CF08007FA098 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8B250AB01DA6CF08007FA098 /* AERecord iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "AERecord iOS Tests.xctest";
-			remoteRef = 8B250AAF1DA6CF08007FA098 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8B250AB21DA6CF08007FA098 /* AERecord.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AERecord.framework;
-			remoteRef = 8B250AB11DA6CF08007FA098 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8B250AB41DA6CF08007FA098 /* AERecord.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AERecord.framework;
-			remoteRef = 8B250AB31DA6CF08007FA098 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8B250AB61DA6CF08007FA098 /* AERecord tvOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "AERecord tvOS Tests.xctest";
-			remoteRef = 8B250AB51DA6CF08007FA098 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8B250AB81DA6CF08007FA098 /* AERecord.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AERecord.framework;
-			remoteRef = 8B250AB71DA6CF08007FA098 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8B250ABA1DA6CF08007FA098 /* AERecord OSX Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "AERecord OSX Tests.xctest";
-			remoteRef = 8B250AB91DA6CF08007FA098 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8BFD97901CF09034008E8C9E /* AECoreDataUI.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AECoreDataUI.framework;
-			remoteRef = 8BFD978F1CF09034008E8C9E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8BFD97921CF09034008E8C9E /* AECoreDataUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AECoreDataUITests.xctest;
-			remoteRef = 8BFD97911CF09034008E8C9E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8BFD97141CF08CAD008E8C9E /* Resources */ = {
@@ -377,6 +203,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B62B4051DA6DFE0006FAB83 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AERecord.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AECoreDataUI.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BFD97121CF08CAD008E8C9E /* Sources */ = {
@@ -393,19 +238,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8B250ACB1DA6CFDB007FA098 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AERecord iOS";
-			targetProxy = 8B250ACA1DA6CFDB007FA098 /* PBXContainerItemProxy */;
-		};
-		8BFD979A1CF09065008E8C9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AECoreDataUI;
-			targetProxy = 8BFD97991CF09065008E8C9E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8BFD97221CF08CAD008E8C9E /* Main.storyboard */ = {
@@ -522,6 +354,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AECoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.tadija.AECoreDataDemo;
@@ -535,6 +371,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AECoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.tadija.AECoreDataDemo;
