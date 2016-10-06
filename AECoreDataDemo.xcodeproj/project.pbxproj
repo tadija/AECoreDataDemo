@@ -118,6 +118,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B14A4021DA6DAB000E95479 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8B14A4031DA6DAB000E95479 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8BFD97161CF08CAD008E8C9E /* AECoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AECoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFD97191CF08CAD008E8C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BFD971E1CF08CAD008E8C9E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B14A40B1DA6DAB400E95479 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B14A4021DA6DAB000E95479 /* LICENSE */,
+				8B14A4031DA6DAB000E95479 /* README.md */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		8B250AA41DA6CF08007FA098 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +176,7 @@
 			children = (
 				8BFD97181CF08CAD008E8C9E /* AECoreDataDemo */,
 				8BFD97171CF08CAD008E8C9E /* Products */,
+				8B14A40B1DA6DAB400E95479 /* Supporting Files */,
 				8BFD97801CF09028008E8C9E /* AERecord.xcodeproj */,
 				8BFD978A1CF09034008E8C9E /* AECoreDataUI.xcodeproj */,
 			);
