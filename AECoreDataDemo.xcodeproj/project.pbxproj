@@ -39,6 +39,7 @@
 		8B14A40E1DA6DE2300E95479 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		8B14A4121DA6DF5800E95479 /* AERecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AERecord.framework; path = Carthage/Build/iOS/AERecord.framework; sourceTree = "<group>"; };
 		8B62B4031DA6DFC7006FAB83 /* AECoreDataUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AECoreDataUI.framework; path = Carthage/Build/iOS/AECoreDataUI.framework; sourceTree = "<group>"; };
+		8B6D994E205B14BD0079EB3A /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 		8BFD97161CF08CAD008E8C9E /* AECoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AECoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFD97191CF08CAD008E8C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BFD971E1CF08CAD008E8C9E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 			children = (
 				8B14A4021DA6DAB000E95479 /* LICENSE */,
 				8B14A4031DA6DAB000E95479 /* README.md */,
-				8B14A40E1DA6DE2300E95479 /* Cartfile */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -78,6 +78,8 @@
 		8B14A40F1DA6DF4C00E95479 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B14A40E1DA6DE2300E95479 /* Cartfile */,
+				8B6D994E205B14BD0079EB3A /* Cartfile.resolved */,
 				8B62B4031DA6DFC7006FAB83 /* AECoreDataUI.framework */,
 				8B14A4121DA6DF5800E95479 /* AERecord.framework */,
 			);
@@ -87,9 +89,9 @@
 		8BFD970D1CF08CAD008E8C9E = {
 			isa = PBXGroup;
 			children = (
+				8B14A40F1DA6DF4C00E95479 /* Frameworks */,
 				8BFD97181CF08CAD008E8C9E /* AECoreDataDemo */,
 				8BFD97171CF08CAD008E8C9E /* Products */,
-				8B14A40F1DA6DF4C00E95479 /* Frameworks */,
 				8B14A40B1DA6DAB400E95479 /* Supporting Files */,
 			);
 			sourceTree = "<group>";
@@ -118,9 +120,9 @@
 		8BFD97311CF08D67008E8C9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8BFD97271CF08CAD008E8C9E /* LaunchScreen.storyboard */,
 				8BFD97221CF08CAD008E8C9E /* Main.storyboard */,
 				8BFD97251CF08CAD008E8C9E /* Assets.xcassets */,
-				8BFD97271CF08CAD008E8C9E /* LaunchScreen.storyboard */,
 				8BFD972A1CF08CAD008E8C9E /* Info.plist */,
 			);
 			name = "Supporting Files";
