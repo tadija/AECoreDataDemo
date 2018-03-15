@@ -1,2 +1,2 @@
-github "tadija/AERecord" "head"
-github "tadija/AECoreDataUI" "head"
+github "tadija/AERecord" "develop"
+github "tadija/AECoreDataUI" "develop"
