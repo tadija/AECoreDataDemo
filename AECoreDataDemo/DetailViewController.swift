@@ -33,7 +33,7 @@ class DetailViewController: CoreDataCollectionViewController {
     
     // MARK: - CoreData
     
-    func showOptions(_ sender: AnyObject) {
+    @objc func showOptions(_ sender: AnyObject) {
 
         let optionsAlert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         optionsAlert.popoverPresentationController?.barButtonItem = self.navigationItem.rightBarButtonItem

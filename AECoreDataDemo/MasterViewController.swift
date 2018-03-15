@@ -35,7 +35,7 @@ class MasterViewController: CoreDataTableViewController, UISplitViewControllerDe
     
     // MARK: - CoreData
 
-    func insertNewObject(_ sender: AnyObject) {
+    @objc func insertNewObject(_ sender: AnyObject) {
         let id = Event.autoIncrementedInteger(for: "id")
         Event.create(with: ["id": id, "timeStamp" : NSDate()])
         AERecord.saveAndWait()
