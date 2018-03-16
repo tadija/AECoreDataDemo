@@ -1,10 +1,8 @@
-//
-//  MasterViewController.swift
-//  AECoreDataDemo
-//
-//  Created by Marko Tadic on 11/3/14.
-//  Copyright (c) 2014 ae. All rights reserved.
-//
+/**
+ *  https://github.com/tadija/AECoreDataDemo
+ *  Copyright (c) Marko Tadić 2014-2018
+ *  Licensed under the MIT license. See LICENSE file.
+ */
 
 import AERecord
 import AECoreDataUI
@@ -35,7 +33,7 @@ class MasterViewController: CoreDataTableViewController, UISplitViewControllerDe
     
     // MARK: - CoreData
 
-    func insertNewObject(_ sender: AnyObject) {
+    @objc func insertNewObject(_ sender: AnyObject) {
         let id = Event.autoIncrementedInteger(for: "id")
         Event.create(with: ["id": id, "timeStamp" : NSDate()])
         AERecord.saveAndWait()

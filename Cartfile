@@ -1,2 +1,2 @@
-github "tadija/AERecord" "head"
-github "tadija/AECoreDataUI" "head"
+github "tadija/AERecord" ~> 4.1
+github "tadija/AECoreDataUI" ~> 4.1

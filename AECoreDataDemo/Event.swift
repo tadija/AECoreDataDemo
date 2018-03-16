@@ -1,10 +1,8 @@
-//
-//  Event.swift
-//  AECoreDataDemo
-//
-//  Created by Marko Tadic on 11/4/14.
-//  Copyright (c) 2014 ae. All rights reserved.
-//
+/**
+ *  https://github.com/tadija/AECoreDataDemo
+ *  Copyright (c) Marko Tadić 2014-2018
+ *  Licensed under the MIT license. See LICENSE file.
+ */
 
 import Foundation
 import CoreData
