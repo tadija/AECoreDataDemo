@@ -7,7 +7,5 @@
 import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
-    
     @IBOutlet weak var textLabel: UILabel!
-    
 }

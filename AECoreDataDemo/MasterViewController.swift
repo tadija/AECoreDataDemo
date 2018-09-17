@@ -20,7 +20,7 @@ class MasterViewController: CoreDataTableViewController, UISplitViewControllerDe
         
         // setup row height
         tableView.estimatedRowHeight = 44
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
 
         // setup buttons
         navigationItem.leftBarButtonItem = editButtonItem
@@ -75,7 +75,7 @@ class MasterViewController: CoreDataTableViewController, UISplitViewControllerDe
         return true
     }
     
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle,
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle,
                             forRowAt indexPath: IndexPath) {
         
         if editingStyle == .delete {
